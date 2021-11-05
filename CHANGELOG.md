@@ -1,16 +1,14 @@
 ### [0.0.7](https://github.com/jonsoku2/nextjs-starter-v12/compare/v0.0.6...v0.0.7) (2021-11-05)
 
-
 ### Bug Fixes
 
-* test6 ([e940d18](https://github.com/jonsoku2/nextjs-starter-v12/commit/e940d18f469c15cb42e4557db200b30f90bf3e8a))
+- test6 ([e940d18](https://github.com/jonsoku2/nextjs-starter-v12/commit/e940d18f469c15cb42e4557db200b30f90bf3e8a))
 
 ### [0.0.6](https://github.com/jonsoku2/nextjs-starter-v12/compare/v0.0.5...v0.0.6) (2021-11-05)
 
-
 ### Bug Fixes
 
-* test5 ([548ee6e](https://github.com/jonsoku2/nextjs-starter-v12/commit/548ee6ea581a03cf507b48d477f9ff81208c57aa))
+- test5 ([548ee6e](https://github.com/jonsoku2/nextjs-starter-v12/commit/548ee6ea581a03cf507b48d477f9ff81208c57aa))
 
 ### [0.0.5](https://github.com/jonsoku2/nextjs-starter-v12/compare/v0.0.4...v0.0.5) (2021-11-05)
 
