@@ -140,34 +140,29 @@ Then add the rules for sorting imports and exports:
 ## remove console
 
 ```bash
-$ yarn add --dev babel-plugin-transform-remove-console
+$ yarn add --dev babel-plugin-transform-remove-console @babel/plugin-proposal-private-property-in-object
 ```
 
 https://babeljs.io/docs/en/babel-plugin-transform-remove-console
+https://babeljs.io/docs/en/babel-plugin-proposal-private-property-in-object
 
 ### .babelrc
 
 ```json
 {
-  "presets": ["next/babel"],
   "plugins": [
     [
-      "styled-components",
+      "@babel/plugin-proposal-private-methods",
       {
-        "ssr": true
+        "loose": true
       }
     ],
     [
-      "transform-remove-console",
+      "@babel/plugin-proposal-private-property-in-object",
       {
-        "exclude": ["error", "warn"]
+        "loose": true
       }
     ]
-  ],
-  "env": {
-    "development": {
-      "compact": false
-    }
-  }
+  ]
 }
 ```

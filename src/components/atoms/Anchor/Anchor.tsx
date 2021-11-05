@@ -22,14 +22,10 @@ export interface AnchorProps {
 }
 
 const Text = styled.a<{ color?: string }>`
-  color: ${(props) => props.color};
+  color: ${({ color, theme }) => (color ? color : theme.palette.grey)};
 `
 
-export const Anchor: React.VFC<AnchorProps> = ({
-  href,
-  text,
-  textColor = '#000',
-}) => {
+export const Anchor: React.VFC<AnchorProps> = ({ href, text, textColor }) => {
   console.log(text)
   return (
     <Link href={href}>
