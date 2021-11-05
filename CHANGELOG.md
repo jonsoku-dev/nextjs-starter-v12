@@ -1,3 +1,6 @@
+* fix: test7 (97248ed)
+* fix: test7 (66d6426)
+
 ### [0.0.7](https://github.com/jonsoku2/nextjs-starter-v12/compare/v0.0.6...v0.0.7) (2021-11-05)
 
 ### Bug Fixes
