@@ -13,9 +13,9 @@
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "release:patch": "release-it -- patch",
-    "release:minor": "release-it -- minor",
-    "release:major": "release-it -- major",
+    "release:patch": "dotenv release-it -- patch",
+    "release:minor": "dotenv release-it -- minor",
+    "release:major": "dotenv release-it -- major",
     "prepare": "husky install",
     "test": "jest"
   },
@@ -48,6 +48,7 @@
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^1.13.3",
     "babel-plugin-transform-remove-console": "^6.9.4",
+    "dotenv-cli": "^4.1.0",
     "eslint": "^7",
     "eslint-config-next": "12.0.2",
     "eslint-config-prettier": "^8.3.0",
@@ -64,5 +65,5 @@
     "ts-jest": "^27.0.7",
     "typescript": "4.4.4"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

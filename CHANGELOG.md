@@ -1,3 +1,12 @@
+### [1.0.4](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.3...v1.0.4) (2021-11-05)
+
+
+### Updating grunt tasks
+
+* add dotenv ([d04d833](https://github.com/jonsoku2/nextjs-starter-v12/commit/d04d833ca12a6426c629ae792d762e02ec4f9e60))
+* modify release-it.json ([9961638](https://github.com/jonsoku2/nextjs-starter-v12/commit/99616385332433558f0c2f3e2f532e6058a26ce0))
+* modify release-it.json ([aa81268](https://github.com/jonsoku2/nextjs-starter-v12/commit/aa81268fad0cdb606016aa1f01f00a2bdf2ee4a9))
+
 ### [1.0.3](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.2...v1.0.3) (2021-11-05)
 
 
