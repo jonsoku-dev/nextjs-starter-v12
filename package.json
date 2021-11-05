@@ -13,7 +13,9 @@
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "release": "release-it"
+    "release:patch": "release-it -- patch",
+    "release:minor": "release-it -- minor",
+    "release:major": "release-it -- major"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.15",
@@ -48,5 +50,5 @@
     "storybook-addon-styled-component-theme": "^2.0.0",
     "typescript": "4.4.4"
   },
-  "version": "0.1.0"
+  "version": "1.0.0"
 }

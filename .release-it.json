@@ -6,7 +6,7 @@
     "push": true,
     "requireCleanWorkingDir": false,
     "requireUpstream": false,
-    "requireCommits": true,
+    "requireCommits": false,
     "commitMessage": "Release ${name}  v${version}"
   },
   "npm": {
