@@ -11,6 +11,7 @@ export interface AnchorProps {
 }
 
 export const Anchor: React.VFC<AnchorProps> = ({ href, text }) => {
+  console.log(text)
   return (
     <Link href={href}>
       <a>{text}</a>

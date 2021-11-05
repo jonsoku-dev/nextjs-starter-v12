@@ -6,6 +6,12 @@
       {
         "ssr": true
       }
+    ],
+    [
+      "transform-remove-console",
+      {
+        "exclude": ["error", "warn"]
+      }
     ]
   ],
   "env": {

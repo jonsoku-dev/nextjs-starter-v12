@@ -136,3 +136,38 @@ Then add the rules for sorting imports and exports:
   }
 }
 ```
+
+## remove console
+
+```bash
+$ yarn add --dev babel-plugin-transform-remove-console
+```
+
+https://babeljs.io/docs/en/babel-plugin-transform-remove-console
+
+### .babelrc
+
+```json
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true
+      }
+    ],
+    [
+      "transform-remove-console",
+      {
+        "exclude": ["error", "warn"]
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "compact": false
+    }
+  }
+}
+```
