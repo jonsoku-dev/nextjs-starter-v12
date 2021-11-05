@@ -5,6 +5,7 @@ module.exports = {
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
+    '@storybook/addon-postcss',
     'storybook-addon-styled-component-theme/dist/preset',
   ],
   // https://storybook.js.org/docs/react/configure/babel
@@ -17,10 +18,10 @@ module.exports = {
     // alias: https://github.com/storybookjs/storybook/issues/11989#issuecomment-674833064
     config.resolve.alias = {
       ...config.resolve?.alias,
-      '@/components/*': path.resolve(__dirname, '../src/components/'),
-      '@/hooks/*': path.resolve(__dirname, '../src/hooks/'),
-      '@/utils/*': path.resolve(__dirname, '../src/utils/'),
-      '@/pages/*': path.resolve(__dirname, '../src/pages/'),
+      '@/components': path.resolve(__dirname, '../src/components'),
+      '@/hooks': path.resolve(__dirname, '../src/hooks'),
+      '@/utils': path.resolve(__dirname, '../src/utils'),
+      '@/pages': path.resolve(__dirname, '../src/pages'),
     }
     config.resolve.extensions.push('.ts', '.tsx')
     return config
