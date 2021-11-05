@@ -1,3 +1,8 @@
+* fix: test11 (b6a6bd0)
+* fix: test11 (36d203c)
+* Release nextjs-starter-v12 v0.0.9 (3bf8a6e)
+* fix: test10 (a5136e9)
+
 ### [0.0.9](https://github.com/jonsoku2/nextjs-starter-v12/compare/v0.0.10...v0.0.9) (2021-11-05)
 
 
