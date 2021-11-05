@@ -1,3 +1,10 @@
+### [1.0.6](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.5...v1.0.6) (2021-11-05)
+
+
+### Updating grunt tasks
+
+* modify release-it ([0685470](https://github.com/jonsoku2/nextjs-starter-v12/commit/0685470e7845c8616c4ca787ff3e26cb4171417a))
+
 ### [1.0.5](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.4...v1.0.5) (2021-11-05)
 
 
