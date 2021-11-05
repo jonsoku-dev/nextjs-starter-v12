@@ -18,6 +18,7 @@
     "tokenRef": "GITHUB_TOKEN"
   },
   "hooks": {
+    "before:init": ["yarn run lint", "yarn test"],
     "after:git:release": "git checkout master && git merge develop && git push origin master && git checkout develop",
     "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
   },
