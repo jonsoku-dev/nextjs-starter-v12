@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2021 LINE Corporation. All rights reserved.
- * LINE Corporation PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- */
 import Link from 'next/link'
 import React from 'react'
 import styled from 'styled-components'
