@@ -13,7 +13,9 @@
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "release": "release-it"
+    "release:patch": "release-it -- patch",
+    "release:minor": "release-it -- minor",
+    "release:major": "release-it -- major"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.15",
