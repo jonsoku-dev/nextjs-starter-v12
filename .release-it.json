@@ -18,7 +18,7 @@
     "tokenRef": "GITHUB_TOKEN"
   },
   "hooks": {
-    "after:release": "git rebase origin/master && echo Successfully released ${name} v${version} to ${repo.repository}."
+    "after:release": "git checkout CHANGELOG.md && git rebase origin/master && echo Successfully released ${name} v${version} to ${repo.repository}."
   },
   "plugins": {
     "@release-it/conventional-changelog": {
