@@ -6,7 +6,7 @@ $ yarn add styled-components @types/styled-components
 
 https://styled-components.com/docs/advanced#nextjs
 
-### \_document.tsx
+### _document.tsx
 
 ```typescript jsx
 import Document, { DocumentContext } from 'next/document'
@@ -52,7 +52,9 @@ $ touch .babelrc
 
 ```json
 {
-  "presets": ["next/babel"],
+  "presets": [
+    "next/babel"
+  ],
   "plugins": [
     [
       "styled-components",
