@@ -5,11 +5,11 @@ import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
 import Anchor from '@/components/atoms/Anchor'
-import { theme } from '@/utils/theme/theme'
+import { defaultTheme } from '@/utils/theme'
 
 it('renders "Anchor"', () => {
   render(
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={defaultTheme}>
       <Anchor href={'https://naver.com'} text={'naver'} />
     </ThemeProvider>
   )

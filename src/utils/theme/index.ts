@@ -1,1 +1,1 @@
-export { theme as default } from './theme'
+export { defaultTheme, lightTheme } from './theme'
