@@ -1,6 +1,8 @@
-node_modules
-.next
 .idea
 public
 .husky
 CHANGELOG.md
+node_modules
+**/.next/**
+**/_next/**
+**/dist/**

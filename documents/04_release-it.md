@@ -53,11 +53,14 @@ More Examples:
 - `docs`: (changes to the documentation)
 - `style`: (formatting, missing semi colons, etc; no production code change)
 - `refactor`: (refactoring production code, eg. renaming a variable)
+- `perf`: (A code change that improves performance)
 - `test`: (adding missing tests, refactoring tests; no production code change)
-- `chore`: (updating grunt tasks etc; no production code change)
+- `chore`: (changes to the build process or auxiliary tools and libraries such as documentation generation etc; no
+  production code change)
 
 References:
 
 - https://www.conventionalcommits.org/
 - https://seesparkbox.com/foundry/semantic_commit_messages
 - http://karma-runner.github.io/1.0/dev/git-commit-msg.html
+- https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md
