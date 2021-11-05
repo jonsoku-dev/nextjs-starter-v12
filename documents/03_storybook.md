@@ -71,3 +71,29 @@ $ yarn add --dev @babel/plugin-proposal-private-methods @babel/plugin-proposal-p
   }
 }
 ```
+
+## addons
+
+### Accessibility
+
+https://storybook.js.org/addons/@storybook/addon-a11y/
+
+```bash
+$ yarn add @storybook/addon-a11y --dev
+```
+
+### Storysource
+
+https://storybook.js.org/addons/@storybook/addon-storysource/
+
+```bash
+$ yarn add --dev @storybook/addon-storysource
+```
+
+### Outline
+
+https://storybook.js.org/addons/storybook-addon-outline/
+
+```bash
+$ yarn add --dev storybook-addon-outline
+```

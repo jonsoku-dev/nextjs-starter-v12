@@ -1,11 +1,11 @@
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
 
-import { theme } from '@/utils/theme/theme'
+import { defaultTheme } from '@/utils/theme'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={defaultTheme}>
       <Component {...pageProps} />
     </ThemeProvider>
   )

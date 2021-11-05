@@ -1,7 +1,7 @@
 import { addDecorator } from '@storybook/react'
 import { withThemesProvider } from 'storybook-addon-styled-component-theme'
 import { ThemeProvider } from 'styled-components'
-import theme from '../src/utils/theme'
+import { defaultTheme, lightTheme } from '../src/utils/theme'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -13,5 +13,5 @@ export const parameters = {
   },
 }
 
-const themes = [theme]
+const themes = [defaultTheme, lightTheme]
 addDecorator(withThemesProvider(themes), ThemeProvider)

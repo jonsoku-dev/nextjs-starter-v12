@@ -1,3 +1,10 @@
+### [1.0.7](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.6...v1.0.7) (2021-11-05)
+
+
+### Updating grunt tasks
+
+* add storybook addons ([389f7b0](https://github.com/jonsoku2/nextjs-starter-v12/commit/389f7b0723f1002c8717d1a057203de42eea0aaa))
+
 ### [1.0.6](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.5...v1.0.6) (2021-11-05)
 
 
