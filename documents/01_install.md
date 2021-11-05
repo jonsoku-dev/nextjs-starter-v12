@@ -27,7 +27,7 @@ $ yarn add --dev eslint@^7 @typescript-eslint/eslint-plugin
 
 ```bash
 $ yarn add --dev prettier eslint-config-prettier
-$ touch .prettierrc.json
+$ touch .prettierrc.json .prettierignore
 ```
 
 ### .prettierrc.json
@@ -40,6 +40,13 @@ $ touch .prettierrc.json
   "tabWidth": 2,
   "useTabs": false
 }
+```
+
+### .prettierignore
+
+```text
+node_modules
+.next
 ```
 
 Change `.eslintrc.json`
