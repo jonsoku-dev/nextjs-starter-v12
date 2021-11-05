@@ -7,7 +7,7 @@
     "requireCleanWorkingDir": false,
     "requireUpstream": false,
     "requireCommits": true,
-    "commitMessage": "Release ${name} v${version}"
+    "commitMessage": "chore: release v${version}"
   },
   "npm": {
     "publish": false
