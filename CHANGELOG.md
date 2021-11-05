@@ -1,3 +1,15 @@
+### [1.0.2](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.1...v1.0.2) (2021-11-05)
+
+
+### Features
+
+* add jest ([ece4a28](https://github.com/jonsoku2/nextjs-starter-v12/commit/ece4a28f6d909b43706b2c9bb87954097bd81831))
+
+
+### Updating grunt tasks
+
+* improve release-it ([67cebd2](https://github.com/jonsoku2/nextjs-starter-v12/commit/67cebd2f077dcf60cb597c9bfd0f1e8197bd2844))
+
 ### [1.0.1](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.0...v1.0.1) (2021-11-05)
 
 

@@ -1,7 +1,7 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import React from 'react'
 
-import { Anchor } from './Anchor'
+import Anchor from '@/components/atoms/Anchor'
 
 export default {
   title: 'atoms/Anchor',

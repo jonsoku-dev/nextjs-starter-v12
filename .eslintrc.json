@@ -5,8 +5,11 @@
   "env": {
     "es6": true
   },
-  "plugins": ["@typescript-eslint", "simple-import-sort", "import"],
+  "plugins": ["jest", "@typescript-eslint", "simple-import-sort", "import"],
   "extends": [
+    "plugin:jest/recommended",
+    "plugin:jest/style",
+    "plugin:testing-library/react",
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
     "prettier"
