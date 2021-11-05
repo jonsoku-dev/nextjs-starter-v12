@@ -1,3 +1,10 @@
+### [1.0.5](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.4...v1.0.5) (2021-11-05)
+
+
+### Changes to the documentation
+
+* modify release-it doc ([8c81ce7](https://github.com/jonsoku2/nextjs-starter-v12/commit/8c81ce750cbf43ea6c09a87df2368abd6c6fb333))
+
 ### [1.0.4](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.3...v1.0.4) (2021-11-05)
 
 

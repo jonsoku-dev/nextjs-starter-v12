@@ -64,3 +64,32 @@ References:
 - https://seesparkbox.com/foundry/semantic_commit_messages
 - http://karma-runner.github.io/1.0/dev/git-commit-msg.html
 - https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md
+
+## Github token
+
+https://github.com/release-it/release-it/blob/master/docs/github-releases.md
+
+```bash
+touch .env
+```
+
+### generate token for release-it
+
+https://github.com/settings/tokens/new?scopes=repo&description=release-it
+
+### .release-it.json
+
+```json
+{
+  "github": {
+    "tokenRef": "GITHUB_TOKEN"
+  }
+}
+```
+
+### .env
+
+```dotenv
+# .env
+GITHUB_TOKEN="github_token"
+```
