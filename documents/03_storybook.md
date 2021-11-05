@@ -24,7 +24,7 @@ https://babeljs.io/docs/en/babel-plugin-proposal-private-methods
 https://babeljs.io/docs/en/babel-plugin-proposal-private-property-in-object
 
 ```bash
-$ yarn add --dev @babel/plugin-proposal-private-methods @babel/plugin-proposal-private-property-in-object
+$ yarn add --dev @babel/plugin-proposal-private-methods @babel/plugin-proposal-private-property-in-object @babel/plugin-proposal-class-properties
 ```
 
 `.babelrc`
@@ -43,6 +43,12 @@ $ yarn add --dev @babel/plugin-proposal-private-methods @babel/plugin-proposal-p
       "transform-remove-console",
       {
         "exclude": ["error", "warn"]
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
       }
     ],
     [
