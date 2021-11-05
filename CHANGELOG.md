@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.2...v1.0.3) (2021-11-05)
+
+
+### Updating grunt tasks
+
+* add env ([f69eb59](https://github.com/jonsoku2/nextjs-starter-v12/commit/f69eb59e56b8152a37ae339e04fdb1423e7767a2))
+
 ### [1.0.2](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.1...v1.0.2) (2021-11-05)
 
 
