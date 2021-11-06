@@ -30,7 +30,7 @@ yarn start
 
 ## Deploy
 
-only develop branch
+only use this cmd on develop branch
 
 ```bash
 git add .
