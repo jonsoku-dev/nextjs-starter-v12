@@ -1,3 +1,10 @@
+### [1.0.9](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.8...v1.0.9) (2021-11-06)
+
+
+### Changes to the documentation
+
+* remove test.md ([a4ac18e](https://github.com/jonsoku2/nextjs-starter-v12/commit/a4ac18ec20678a338a4918c3f3a35cbb18fce880))
+
 ### [1.0.8](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.7...v1.0.8) (2021-11-06)
 
 
