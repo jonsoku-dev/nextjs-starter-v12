@@ -28,6 +28,16 @@ yarn build
 yarn start
 ```
 
+## Deploy
+
+only use this cmd on develop branch
+
+```bash
+git add .
+git commit -m 'chore: commit message'
+yarn release:patch # release:minor, release:major
+```
+
 ## Author
 
 👤 **jongseok lee**

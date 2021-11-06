@@ -1,3 +1,11 @@
+### [1.0.8](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.7...v1.0.8) (2021-11-06)
+
+
+### Changes to the documentation
+
+* add deploy way ([e6e89fc](https://github.com/jonsoku2/nextjs-starter-v12/commit/e6e89fca8bc22723bab25e1703bfa26d081a2a67))
+* add test md ([b5618b9](https://github.com/jonsoku2/nextjs-starter-v12/commit/b5618b924687cfb41b83ee52cca012ea43d3d9ef))
+
 ### [1.0.7](https://github.com/jonsoku2/nextjs-starter-v12/compare/v1.0.6...v1.0.7) (2021-11-05)
 
 
