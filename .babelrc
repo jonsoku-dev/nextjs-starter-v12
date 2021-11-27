@@ -8,12 +8,6 @@
       }
     ],
     [
-      "transform-remove-console",
-      {
-        "exclude": ["error", "warn"]
-      }
-    ],
-    [
       "@babel/plugin-proposal-class-properties",
       {
         "loose": true
